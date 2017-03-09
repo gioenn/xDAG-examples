@@ -6,7 +6,6 @@ import java.util.Random;
 import org.apache.spark.api.java.*;
 import org.apache.spark.SparkConf;
 
-@SuppressWarnings("resource")
 
 /* 
  * The program creates a random RDD of 100 Integers (variable x) and saves in y the even numbers (note that at this point no action is reached so no computation is performed).
@@ -16,6 +15,7 @@ import org.apache.spark.SparkConf;
  */
 
 
+@SuppressWarnings("resource")
 public class BasicConditionalTest {
   public static void main(String[] args) {
 	  
