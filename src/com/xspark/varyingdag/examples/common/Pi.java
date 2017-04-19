@@ -1,4 +1,4 @@
-package com.xspark.varyingdag.examples;
+package com.xspark.varyingdag.examples.common;
 
 import java.util.ArrayList;
 import java.util.List;

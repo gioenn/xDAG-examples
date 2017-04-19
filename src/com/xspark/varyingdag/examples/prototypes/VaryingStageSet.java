@@ -1,11 +1,14 @@
-package com.xspark.varyingdag.examples;
+package com.xspark.varyingdag.examples.prototypes;
 
 import java.util.Random;
+
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaSparkContext;
+
 import scala.Tuple2;
-import com.xspark.varyingdag.utils.Utils;
+
+import com.xspark.varyingdag.examples.utils.Utils;
 
 /* 
  * The DAG of this program is composed by either a single stage or two stages if the predicate at line 26 is evaluated to true (note that reduceByKey is a shuffle operation).

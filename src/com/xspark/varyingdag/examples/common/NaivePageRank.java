@@ -1,4 +1,4 @@
-package com.xspark.varyingdag.examples;
+package com.xspark.varyingdag.examples.common;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
@@ -66,9 +66,6 @@ public class NaivePageRank
 		}
 
 		sc.stop();		
-
-
-
 
 	}
 

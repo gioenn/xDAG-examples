@@ -1,8 +1,9 @@
-package com.xspark.varyingdag.examples;
+package com.xspark.varyingdag.examples.prototypes;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
-import com.xspark.varyingdag.utils.Utils;
+
+import com.xspark.varyingdag.examples.utils.Utils;
 
 
 
