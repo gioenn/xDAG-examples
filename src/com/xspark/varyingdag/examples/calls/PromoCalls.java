@@ -5,8 +5,8 @@ import org.apache.spark.api.java.JavaSparkContext;
 
 /* 
  * The program simulates a daily routine of a telecommunication company. This company offers a promotion according 
- * on how many -long calls- (e.g., greater than the 'threshold' parameter) a customer makes during a day. 
- * It considers both local calls and calls outside the county.
+ * to how many -long calls- (e.g., greater than the 'threshold' parameter) a customer makes during a day. 
+ * It considers both local calls and calls outside the country.
  * - if the user makes more than 'minLocalLongCalls' local long calls or more than 'minAbroadLongCalls' 
  * abroad long calls it will receive a 50% discount on all the calls made during the day
  * - if the user makes more than 'minLocalLongCalls' local long calls it will receive an additional discount of 5% 
